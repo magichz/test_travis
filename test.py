@@ -1,11 +1,6 @@
-#!/usr/bin/env python3
-import pandas
+def inc(x):
+    return x + 1
 
 
-def default_test():
-    print('hello world')
-    print('hi Travis')
-
-
-if __name__ == '__main__':
-    default_test()
+def test_answer():
+    assert inc(3) == 4
